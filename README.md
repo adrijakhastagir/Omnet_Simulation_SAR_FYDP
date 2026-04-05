@@ -1,4 +1,4 @@
-# OMNeT++ Simulation for Teleoperated Rover Communication
+# OMNeT++ Simulation for Teleoperated Search and Rescue Rover Communication
 
 This repository contains three OMNeT++ simulation approaches for wireless data transmission in a teleoperated rover system, focusing on different mapping sensor configurations.
 
@@ -21,12 +21,16 @@ The system uses:
 
 This design choice ensures real-time performance, which is critical for teleoperation, even at the cost of reduced reliability.
 
+## Data Handling
+
+To ensure feasible wireless transmission, sensor data is downsampled onboard the rover before transmission. This reduces bandwidth requirements while maintaining sufficient information for mapping and teleoperation.
+
 ## Objective
 
 To analyze and compare the performance of different sensor configurations in terms of:
 - Delay (latency)
 - Packet loss
-- Data transmission efficiency
+- Overall data transmission efficiency
 
 ## Structure
 
