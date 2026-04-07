@@ -6,6 +6,7 @@ This repository contains three OMNeT++ simulation approaches for wireless data t
 
 - **AP1 (LiDAR + RGB Camera):**  
   Simulates data transmission using LiDAR and RGB camera sensors for environment mapping.
+  - **AP1 (Revised):** Improved version of the initial LiDAR + RGB approach with updated parameters/optimization.
 
 - **AP2 (Depth Camera):**  
   Evaluates communication performance when using a depth camera as the primary sensing modality.
